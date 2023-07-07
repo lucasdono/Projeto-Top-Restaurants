@@ -148,7 +148,7 @@ Cada Agrupamento é representado pelo seguinte conjunto de métricas.
 
 Painel online, hospedado em um Cloud e disponível para acesso em qualquer dispositivo conectado à internet.
 
-O painel pode ser acessado através desse link: https://project-top-restaurants.streamlit.app/
+O painel pode ser acessado através desse link: https://projeto-top-restaurants.streamlit.app/
 
 # 6- Conclusão
 
