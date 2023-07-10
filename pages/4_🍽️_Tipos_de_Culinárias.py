@@ -20,7 +20,7 @@ st.set_page_config(page_title="Cousines", layout="wide")
 #filtro de pesquisa de dados
 st.sidebar.markdown('## Filtros')
 countries_select = st.sidebar.multiselect(
-    '##### Escolha os Paises que deseja visualizar os Restaurantes',
+    'Escolha os Paises que deseja visualizar os Restaurantes',
     df.loc[:, 'country'].unique().tolist(), #comando usado para criar uma lista(tolist) de nomes unicos(unique) da coluna country
     default = df.loc[:, 'country'].unique().tolist())
 
@@ -39,7 +39,7 @@ st.sidebar.markdown("""---""")
 
 #filtro escolha tipos de culinaria
 cuisines_type = st.sidebar.multiselect(
-            '#### Escolha os Tipos de Culinaria',
+            'Escolha os Tipos de Culinaria',
             df.loc[:, 'cuisines'].unique().tolist(),
             default = ['Italian', 'Home-made', 'BBQ', 'Brazilian', 'Japanese'])
 
