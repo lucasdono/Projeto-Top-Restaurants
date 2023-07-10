@@ -19,7 +19,7 @@ st.set_page_config(page_title="Cities", layout="wide")
 #filtro de pesquisa de dados
 st.sidebar.markdown('## Filtros')
 country_options = st.sidebar.multiselect(
-    '##### Escolha os Paises que deseja visualizar os Restaurantes',
+    'Escolha os Paises que deseja visualizar os Restaurantes',
     df.loc[:, 'country'].unique().tolist(), #comando usado para criar uma lista(tolist) de nomes unicos(unique) da coluna country
     default = df.loc[:, 'country'].unique().tolist())
 
